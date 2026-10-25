@@ -176,7 +176,7 @@ Actual evaluation results should be reported here after running the model on a h
 
 AI & Data Science Student | Python Developer | Machine Learning Enthusiast
 
-- GitHub: https://github.com/YOUR-USERNAME
+- GitHub: https://github.com/sanjayloganathan1230-source/crowdcast-ai
 
 ## 📄 License
 

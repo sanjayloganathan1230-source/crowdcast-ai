@@ -1,0 +1,118 @@
+{
+  "note": "DEMO DATA (synthetic). Fixed untuned hyperparameters.",
+  "seeds": [
+    {
+      "seed": 1,
+      "test_rows": 2688,
+      "event_rows": 39,
+      "seasonal_naive_168h_mae": 225.69159226190476,
+      "seasonal_naive_168h_rmse": 427.6839955789844,
+      "mean_last_4_weeks_mae": 177.99720982142858,
+      "mean_last_4_weeks_rmse": 328.2984091807484,
+      "random_forest_mae": 144.03690201695454,
+      "random_forest_rmse": 214.97714602262866,
+      "rf_mae_improvement_pct": 36.17976612535645,
+      "rf_rmse_improvement_pct": 49.73458248499579,
+      "rf_mae_event_hours": 376.01621113068285,
+      "naive_mae_event_hours": 1909.3846153846155,
+      "rf_bias_event_hours": -169.99106311533725,
+      "rf_mae_non_event_hours": 140.62157810021787,
+      "rf_bias_non_event_hours": 2.8483724095288503
+    },
+    {
+      "seed": 2,
+      "test_rows": 2688,
+      "event_rows": 30,
+      "seasonal_naive_168h_mae": 213.95052083333334,
+      "seasonal_naive_168h_rmse": 379.91416000619705,
+      "mean_last_4_weeks_mae": 164.81715029761904,
+      "mean_last_4_weeks_rmse": 288.149039320986,
+      "random_forest_mae": 138.25835533328228,
+      "random_forest_rmse": 206.692427073907,
+      "rf_mae_improvement_pct": 35.37835066034496,
+      "rf_rmse_improvement_pct": 45.59496622328173,
+      "rf_mae_event_hours": 279.29063483472106,
+      "naive_mae_event_hours": 1512.8333333333333,
+      "rf_bias_event_hours": 100.69058606249584,
+      "rf_mae_non_event_hours": 136.66656888292746,
+      "rf_bias_non_event_hours": -8.819018153896826
+    },
+    {
+      "seed": 3,
+      "test_rows": 2688,
+      "event_rows": 33,
+      "seasonal_naive_168h_mae": 208.24627976190476,
+      "seasonal_naive_168h_rmse": 374.42623864323906,
+      "mean_last_4_weeks_mae": 172.50809151785714,
+      "mean_last_4_weeks_rmse": 320.69931822678313,
+      "random_forest_mae": 144.79697008528026,
+      "random_forest_rmse": 222.60734123084805,
+      "rf_mae_improvement_pct": 30.468400083386033,
+      "rf_rmse_improvement_pct": 40.547077566603754,
+      "rf_mae_event_hours": 328.6149540531105,
+      "naive_mae_event_hours": 1656.4848484848485,
+      "rf_bias_event_hours": -165.27895008181048,
+      "rf_mae_non_event_hours": 142.51222678172533,
+      "rf_bias_non_event_hours": -18.009521152791255
+    },
+    {
+      "seed": 4,
+      "test_rows": 2688,
+      "event_rows": 36,
+      "seasonal_naive_168h_mae": 213.29464285714286,
+      "seasonal_naive_168h_rmse": 361.9849820533206,
+      "mean_last_4_weeks_mae": 165.98614211309524,
+      "mean_last_4_weeks_rmse": 279.65454119617715,
+      "random_forest_mae": 143.34602455546775,
+      "random_forest_rmse": 215.71060241828468,
+      "rf_mae_improvement_pct": 32.794362467192485,
+      "rf_rmse_improvement_pct": 40.4089635999014,
+      "rf_mae_event_hours": 279.3165702873163,
+      "naive_mae_event_hours": 1248.638888888889,
+      "rf_bias_event_hours": -74.03407580394708,
+      "rf_mae_non_event_hours": 141.50027054100826,
+      "rf_bias_non_event_hours": -1.7084315683662998
+    },
+    {
+      "seed": 5,
+      "test_rows": 2688,
+      "event_rows": 45,
+      "seasonal_naive_168h_mae": 222.97581845238096,
+      "seasonal_naive_168h_rmse": 413.1136115244639,
+      "mean_last_4_weeks_mae": 178.4014136904762,
+      "mean_last_4_weeks_rmse": 331.9420363338923,
+      "random_forest_mae": 143.02177088100956,
+      "random_forest_rmse": 211.70857055887691,
+      "rf_mae_improvement_pct": 35.85772131090821,
+      "rf_rmse_improvement_pct": 48.752942373979394,
+      "rf_mae_event_hours": 291.42896582504903,
+      "naive_mae_event_hours": 1773.1777777777777,
+      "rf_bias_event_hours": -23.693483582425856,
+      "rf_mae_non_event_hours": 140.49497414529952,
+      "rf_bias_non_event_hours": -8.251431488799081
+    }
+  ],
+  "summary_min_mean_max": {
+    "rf_mae_improvement_pct": [
+      30.468400083386033,
+      34.13572012943762,
+      36.17976612535645
+    ],
+    "rf_rmse_improvement_pct": [
+      40.4089635999014,
+      45.00770644975241,
+      49.73458248499579
+    ],
+    "random_forest_mae": [
+      138.25835533328228,
+      142.69200457439888,
+      144.79697008528026
+    ],
+    "seasonal_naive_168h_mae": [
+      208.24627976190476,
+      216.83177083333334,
+      225.69159226190476
+    ]
+  },
+  "rf_beats_both_baselines_mae": "5/5"
+}

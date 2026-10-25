@@ -1,0 +1,18 @@
+# Tested ranges. The oldest version of each package below is one the full test suite was run against;
+# newer minor/patch releases are allowed, next major versions are not. For an exact, verified set use
+# requirements-lock.txt instead.
+
+# Data / ML
+numpy>=2.4,<3
+pandas>=3.0,<4
+scikit-learn>=1.8,<2
+joblib>=1.5,<2
+
+# API
+fastapi>=0.161,<1
+uvicorn[standard]>=0.54,<1
+pydantic>=2.14,<3
+
+# Tests
+pytest>=9.1,<10
+httpx>=0.28,<1
